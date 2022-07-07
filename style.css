@@ -1,3 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,600;1,300&family=Space+Mono:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: royalblue;
+  font-family: "Kanit", sans-serif;
+  font-family: "Space Mono", monospace;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.l-nav-section {
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.l-nav-section ul {
+  display: flex;
+  align-items: center;
 }
