@@ -2,4 +2,4 @@ Math.round(31.452);
 
 let pix : number =51;
 
-alert('Testing...')
+alert(`Testing... Your Lucky number is ${Math.floor(Math.random()*10)+1}`)
